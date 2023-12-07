@@ -1,0 +1,382 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@500&family=Vina+Sans&display=swap');
+
+*{
+    padding: 0;
+    margin: 0;
+    
+
+
+}
+
+body{
+    font-family: poppins;
+    background-color:black;
+    width: 100%;
+}
+
+@media only screen and (max-width:1200px) {
+    .pr:hover{
+        transform: rotate(45deg);
+        transform-origin: 15% top;
+        
+       
+    }
+    
+}
+.nav{
+    width: 100vw;
+    height: 10vh;
+    background-color: black;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    position: relative;
+    /* position:fixed; */
+z-index: 5;
+}
+
+.log{
+position: absolute;
+right: 0%;
+width: 5vw;
+display: flex;
+align-items: center;
+justify-content: center;
+height: 8vh;
+background-color: black;
+bottom: 10%;
+}
+.main .log a{
+    color: #a00d45;
+    position: absolute;
+    z-index: 335;
+    top: 0%;
+    text-decoration: none;
+    text-transform: uppercase;
+    font-family: Vina Sans;
+}
+
+
+.nav1{
+    font-family: Vina Sans;
+    font-style: italic;
+    font-size: 1.5rem;
+}
+
+.nav2 ul{
+    display: flex;
+    gap: 20px;
+}
+
+.nav2 li{
+    
+    list-style: none;
+
+}
+.nav2 a{
+    text-decoration: none;
+    color: whitesmoke;
+}
+
+.main{
+    /* background-color: aqua; */
+    height: 80vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    /* overflow: hidden; */
+    background-color: black;
+position: relative;
+align-items: center;
+
+}
+
+.edu{
+    /* background-color: white; */
+    position: absolute;
+    bottom: 10%;
+    /* top: 30%; */
+    color: beige;
+    text-transform: uppercase;
+    text-align: center;
+    width: 15vw;
+    z-index: 6;
+    font-size: 1.5rem;
+    font-family: Vina Sans;
+}
+.img{
+    
+    display: flex;
+    /* flex-direction: column; */
+    /* align-items: center; */
+    justify-content: center;
+   width: 100vw;
+   height: 60vh;
+   background-color: black;
+
+}
+.img>img{
+    object-fit: cover;
+    width: 100vw;
+    height: 60vh;
+
+}
+.cov{
+    width: 100vw;
+    background-color:black;
+    opacity: .6;
+    position: absolute;
+    z-index: 3;
+    height: 80vh;
+  top: 0;
+
+
+}
+.quote{
+    position:relative;
+    z-index: 6;
+    color: white;
+    top: -45%;
+    font-size: 40px;
+    font-family: Vina Sans;
+   z-index: 55;
+   left: 0%;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.para{
+    font-family: poppins;
+    font-size: medium;
+    width: 40vw;
+    display: flex;
+    margin-top: 30px;
+    
+   
+    text-align: center;
+}
+.programs{
+    background-color: #a00d45;
+    height: 100vh;
+    display: flex;
+    position: relative;
+    align-items: center;
+    justify-content: center;
+}
+.pr{
+    background-color: #ffffff;
+    width: 500px;
+    height: 35vh;
+    position: absolute;
+ box-shadow: 10px 10px 5px black;
+   border-radius: 10px 70px 30px 100px;
+   transition: all 0.5s;
+   display: flex;
+   justify-content: center;
+   align-items: center;
+ 
+    
+}
+.pr::before{
+    content: "";
+    background-color: black;
+    height: 10px;
+    width: 10px;
+    border-radius: 60px;
+    position: absolute;
+    z-index: 3;
+    top: 5px;
+    left: 5px
+    
+}
+.p1{
+    top:10%;
+    left: 20%;
+    background-color:gray;
+
+}
+.p2{
+    top: 16%;
+    right: 20%;
+    background-color:rgb(110, 94, 73);
+}
+
+.p3{
+    bottom: 10%;
+    left: 20%;
+    background-color: aquamarine;
+}
+.p4{
+    bottom: 4%;
+    right: 20%;
+}
+.pr:hover{
+    transform: rotate(8deg);
+    transform-origin: 15% top;
+    
+   
+}
+.programs>h1{
+    position: absolute;
+    top: 1%;
+    color: white;
+}
+
+.pr>h1{
+    text-align: center;
+    position: absolute;
+    top: 30%;
+    text-transform: uppercase;
+    font-family: poppins;
+    font-weight: 900;
+    
+}
+.pr>h3{
+    position: absolute;
+    top: 50%;
+    text-transform: uppercase;
+
+}
+.perks{
+    position: relative;
+    display: flex;
+
+    height: 70vh;
+    background-color: black;
+}
+.perks>h2{
+    position: absolute;
+    text-transform: uppercase;
+    padding-left:20px ;
+    padding-top: 10px;
+    font-family: poppins;
+    font-size:2rem ;
+    align-items: flex-start;
+    color: whitesmoke;
+}
+.pehla{
+    position: absolute;
+    height: 330px;
+   
+    width:20vw;
+  
+    background-color: #ffe3ee;
+    border-radius: 40px;
+
+    
+}
+.p{
+    top: 20%;
+    left: 5%;
+}
+
+.pehla>img{
+    height: 100%;
+    /* width: 100%; */
+    position: absolute;
+    object-fit: cover;
+    border-radius: 40px;
+}
+
+.facilities{
+    padding-top: 30px;
+    height: 100vh;
+    /* width: 100%; */
+   padding-right: 8vw;
+    background-color: black;
+    position: relative;
+}.facilities>h2{
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+padding-bottom: 30px;
+    /* position: absolute; */
+    text-transform: uppercase;
+    text-align: center;
+    /* background-color: #ffffff; */
+    height: 40px;
+}
+.elem{
+    height: 21%;
+    /* background-color: red; */
+    /* position: absolute; */
+    border-top: 1px solid gray;
+    display: flex;
+   justify-content: space-between;
+   align-items: center;
+    /* border-bottom: 1px solid gray; */
+}
+.elemlast{
+    border-bottom: 1px solid gray;
+}
+.elem>h1{
+    color: whitesmoke;
+    text-transform: uppercase;
+    font-size: 7vw;
+opacity: .6;
+}
+.elem>img{
+    /* display: none; */
+    opacity: 0;
+    position: absolute;
+    z-index: 33;
+    height: 30vh;
+}
+.elem>h5{
+    color: whitesmoke;
+}
+#footer{
+    height: 500px;
+    /* background-color: white; */
+    position: relative;
+text-transform: uppercase;
+font-family: poppins;
+font-weight: bolder;
+color:white;
+}
+.about{
+    
+    align-items: center;
+    
+   
+}
+
+.number{
+    position: absolute;
+  bottom: 0%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding-bottom: 10px;
+  padding-left: 20px;
+  gap: 10px;
+}
+.mail{
+    position: absolute;
+    bottom: 0%;
+    text-transform:lowercase ;
+    padding-bottom: 40px;
+    font-weight: 200;
+    width: 20%;
+    padding-left: 20px;
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    justify-content: center;
+}
+
+.pp{
+    position: absolute;
+    top: 20%;
+    right: 45%;
+
+}
+.tt{
+    position: absolute;
+    top: 20%;
+    right: 10%;
+}
